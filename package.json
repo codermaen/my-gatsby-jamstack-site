@@ -14,7 +14,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "babel-plugin-styled-components": "^1.13.3",
+    "dotenv": "^10.0.0",
     "gatsby": "^4.1.0",
     "gatsby-plugin-netlify-cms": "^6.1.0",
     "gatsby-plugin-styled-components": "^5.1.0",

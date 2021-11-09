@@ -10,11 +10,12 @@ const pageStyles = {
 
 // markup
 const IndexPage = () => {
+  console.log(newsData, 'newsdata')
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
       <ul>
-        {newsData.map((item) => {
+        {newsData().map((item) => {
           return <li>{item.title}</li>
         })}
 
